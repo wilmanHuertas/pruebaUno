@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Dibujando con canvas</title>
+  </head>
+  <body>
+    <h1>Dibujo en canvas</h1>
+    <p>
+      Cuantas lineas quieres
+      <input type="text" id="texto_lineas" />
+      <br/>
+      Que colores quieres para los exteriores <br/>
+      <input type="color" id="Cizq" >
+      <input type="color" id="Cder" > <br/>
+      Que color quieres para el interior <br/>
+      <input type="color" id="Cint" >
+      <input type="button" value="Dibuja" id="botoncito" />
+    </p>
+
+    <canvas id="dibujito" width="400" height="400"></canvas>
+    <p>asi queda tu dibujo</p>
+    <script src="dibujo.js"></script>
+  </body>
+</html>
